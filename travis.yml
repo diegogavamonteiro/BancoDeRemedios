@@ -1,6 +1,7 @@
 language: java
 java:
   - 1.8
+  
 jdk:
   - oraclejdk8
 
@@ -10,11 +11,5 @@ addons:
 before_script:
  - export JAVA_HOME=/usr/lib/jvm/java-8-oracle
 
-
 script:
-
 - mvn clean install sonar:sonar
-
-
-//token sonar
-d6101bc2b8fdfcc4ce34d99c90bea8bfe4b69188
